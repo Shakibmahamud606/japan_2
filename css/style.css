@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*============ FOOTER ==============*/
+footer {
+  width: 100%;
+  background-color: #2a3d4e;
+  padding: 2.25em 0;
+}
+footer .footer_wrap {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer li {
+  display: inline;
+  margin-right: 3em;
+}
+footer li a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: underline;
+}
+footer li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #fff;
+}
+/* ===========================from======= */
+
+section#form {
+  background-color: #f5f7f7;
+  padding: 0 0 70px 0;
+}
+section#form h2 {
+  background-color: #ef4545;
+  line-height: 80px;
+  height: 80px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+#form table {
+  margin: 40px auto 0 auto;
+  width: 830px;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: bold;
+}
+#form table th {
+  width: 210px;
+  padding: 0.5em;
+  vertical-align: top;
+  position: relative;
+  font-weight: bold;
+}
+#form table th span {
+  font-size: 12px;
+  color: #fff;
+  background-color: #ef4545;
+  padding: 0.25em 0.5em;
+  position: absolute;
+  top: 0.75em;
+  right: 1.5em;
+}
+#form table td {
+  width: 620px;
+  padding: 0em 0.5em 1.5em 1.5em;
+}
+#form table td .alert {
+  color: #ff0000;
+  font-weight: bold;
+}
+#form table input[type="text"],
+#form table input[type="tel"],
+#form table input[type="email"],
+#form table textarea,
+#form table select {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  padding: 8px 15px;
+  border: solid 1px #636363;
+  border-radius: 0;
+  line-height: 22px;
+  vertical-align: bottom;
+  -webkit-appearance: none;
+  background-color: #fff;
+}
+#form table input {
+  margin-right: 5px;
+}
+#form table input::placeholder,
+#form table textarea::placeholder {
+  color: #c9c9c9;
+}
+#form table input[type="text"].w50,
+#form table input[type="tel"].w50 {
+  width: 50%;
+}
+#form table textarea[name="address"] {
+  padding: 8px 15px;
+  line-height: 22px;
+  height: 40px;
+}
+#form table textarea[name="body"] {
+  height: 8em;
+}
+#form table label {
+  display: block;
+  padding: 0.5em 0;
+  font-weight: bold;
+}
+#form .btn {
+  width: 440px;
+  color: #fff;
+  background-color: #d80400;
+  height: 80px;
+  line-height: 80px;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px auto 0 400px;
+  border-radius: 5px;
+}
+#form .btn:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+#form .inner p {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 16px;
+}
+#form .inner p a {
+  font-weight: bold;
+  text-decoration: underline;
+}

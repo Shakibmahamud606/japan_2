@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Demo</title>
+  </head>
+  <body>
+    <!-- start header  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">LOGO</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Navbar text with an inline element
+        </span>
+      </div>
+    </nav>
+
+    <!-- end  header  -->
+    <div class="container">
+      <section id="form">
+        <h2 class="ttl2">Lorem ipsum</h2>
+        <form method="POST" action="./send.php">
+          <table>
+            <tr>
+              <th>Lorem ipsum<span>ipsum</span></th>
+              <td>
+                <label
+                  ><input
+                    type="radio"
+                    name="request"
+                    value="説明を聞きたい"
+                  />Lorem</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="request"
+                    value="デモサイトを見たい"
+                  />ipsum</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="request"
+                    value="【初月無料！】お申し込み"
+                  />Lorem ipsum</label
+                >
+                <div class="alert alert_request"></div>
+              </td>
+            </tr>
+            <tr>
+              <th>Lorem <span>ipsum</span></th>
+              <td>
+                <input
+                  type="text"
+                  name="company_name"
+                  placeholder="Lorem ipsum dolor."
+                />
+                <div class="alert alert_company_name"></div>
+              </td>
+            </tr>
+            <tr>
+              <th>Lorem <span>ipsum</span></th>
+              <td>
+                <input
+                  class="w50"
+                  type="text"
+                  name="name"
+                  placeholder="lorem"
+                />
+                <div class="alert alert_name"></div>
+              </td>
+            </tr>
+            <tr>
+              <th>Lorem <span>ipsum</span></th>
+              <td>
+                <input
+                  type="email"
+                  name="mail"
+                  placeholder="mail：kinkan@at-freak.jp"
+                />
+                <div class="alert alert_mail"></div>
+              </td>
+            </tr>
+            <tr>
+              <th>Lorem <span>ipsum</span></th>
+              <td>
+                <input
+                  class="w50"
+                  type="tel"
+                  name="tel"
+                  placeholder="lorem：03-5829-4370 "
+                />
+                <div class="alert alert_tel"></div>
+              </td>
+            </tr>
+            <tr>
+              <th>Lorem <span>ipsum</span></th>
+              <td>
+                <textarea
+                  name="address"
+                  placeholder="Lorem ipsum dolor sit amet."
+                ></textarea>
+                <div class="alert alert_address"></div>
+              </td>
+            </tr>
+            <tr>
+              <th>Lorem</th>
+              <td>
+                <textarea
+                  name="body"
+                  placeholder="Lorem ipsum dolor sit amet, consectetur."
+                ></textarea>
+              </td>
+            </tr>
+          </table>
+
+          <div id="form_send" class="btn">
+            Lorem ipsum<br class="sp" />
+            ipsum
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <!-- footer starts -->
+    <footer>
+      <div class="footer_wrap">
+        <ul>
+          <li>
+            <a href="https://www.at-freak.jp/about/" target="_blank"
+              >Lorem ipsum</a
+            >
+          </li>
+          <li>
+            <a href="https://www.at-freak.jp/privacy_policy/" target="_blank"
+              >Lorem ipsum</a
+            >
+          </li>
+        </ul>
+        <small class="copyright">@2020Freak CO.,LTD.</small>
+      </div>
+    </footer>
+    <!-- footer ends  -->
+  </body>
+</html>
